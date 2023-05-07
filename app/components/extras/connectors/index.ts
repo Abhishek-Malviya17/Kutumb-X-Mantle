@@ -19,7 +19,7 @@ const connectors = [
   new WalletConnectConnector({
     chains,
     options: {
-      qrcode: true,
+      qrcode: false,
     },
   }),
 ];
